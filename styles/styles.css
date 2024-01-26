@@ -63,7 +63,7 @@ main img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box: 0 0 30px gray;
+    box-shadow: 0 0 30px gray;
     margin: 0 0 1rem 1rem;
 }
 
