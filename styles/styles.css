@@ -16,9 +16,16 @@ nav a {
     display: block;
     padding: 20px;
 }
+
+h1 {
+    color: steelblue;
+    padding: .5rem;
+}
+
 main {
     max-width: 840px;
 }
+
 
 aside {
     width: 20rem;
@@ -56,10 +63,13 @@ main img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
+    box: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
 }
 
 p { 
     padding: 0; 
+    margin: 1rem;
 }
 
 footer {
@@ -72,7 +82,7 @@ footer {
 
 .box {
     margin: 1rem; 
-    border: 1px solid steelblue;0; 
+    border: 1px solid steelblue; 
     padding: 1rem;
     background-color: azure;
     color: black;
