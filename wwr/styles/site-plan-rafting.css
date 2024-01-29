@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Noto+Serif&display=swap');
+
+body {
+	max-width: 960px;
+	/* margin: 2rem auto; */
+	font-family: "Oswald", "Noto Serif";
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #e5e5e5;
+    --secondary-color: #000000;
+    --accent1-color: #14213d;
+    --accent2-color: #fca311;
+}
