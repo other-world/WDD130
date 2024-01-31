@@ -29,7 +29,11 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: white;
+}
+
+header img {
+    width: 150px;
 }
 
 p {
@@ -51,7 +55,7 @@ p {
 
 .hero img {
     display: block;
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     object-fit: cover;
 }
