@@ -26,6 +26,24 @@ main {
     max-width: 840px;
 }
 
+main img {
+    float: right;
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
+}
+
+h1 { 
+    color: steelblue;
+}
+
+p { 
+    padding: 0; 
+    margin: 1rem;
+}
 
 aside {
     width: 20rem;
@@ -51,25 +69,6 @@ aside h2 {
     top: 30px;
     left: 140px;
     color: cornsilk;
-}
-
-h1 { 
-    color: steelblue;
-}
-
-main img {
-    float: right;
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-    margin: 0 0 1rem 1rem;
-}
-
-p { 
-    padding: 0; 
-    margin: 1rem;
 }
 
 footer {
