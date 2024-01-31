@@ -43,7 +43,6 @@ p {
 
 .sociallinks img {
     width: 50px;
-    box-shadow: 0px;
     margin: -10px;
 
 }
@@ -80,7 +79,6 @@ article {
     left: 50px;
     width:80%;
     background: black;
-    position: absolute;
     border: 1px solid #000;
 margin: 15px;
 	opacity: 0.9;
@@ -101,9 +99,10 @@ img {
     margin: 10px;
 }
 
-nav {    font-size: 1.2rem;
+nav {    
+    font-size: 1.2rem;
     display: flex;
-    width=100%;
+    width: 100%;
 }
 nav a {
     color: var(--nav-link-color);
