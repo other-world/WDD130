@@ -51,7 +51,8 @@ p {
 
 .sociallinks img {
     width: 50px;
-    margin: 0px;
+    box-shadow: 0px;
+    margin: -10px;
 
 }
 
@@ -116,7 +117,7 @@ img {
 nav {
     font-size: 1.2rem;
     display: flex;
-    width: 100%;
+    width=100%;
 }
 
 nav a {
