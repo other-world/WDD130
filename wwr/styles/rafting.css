@@ -51,6 +51,9 @@ p {
 
 .sociallinks img {
     width: 50px;
+    box-shadow: 0px;
+    margin: -10px;
+
 }
 
 .hero{
@@ -61,8 +64,9 @@ p {
 .hero h1 {
     top: 0px;
 	left: 0px;
-    width: 95%;
+    width: 96%;
 	background: black;
+    color: var(--secondary-color);
     position: absolute;
     border: 1px solid #000;
 	padding: 1rem;
@@ -73,6 +77,7 @@ p {
 .hero img {
     display: block;
     width: 100%; 
+    margin: 0px;
     height: auto;
     object-fit: cover;
 }
@@ -97,22 +102,19 @@ margin: 15px;
     float: right;
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
-    margin: 10 10 1rem 1rem;
+    box-shadow: 0 0 30px black;
+    margin: 10px 10px 10px 10px;
 }
 
 img {
-    width: 400px;
+    width: 600px;
     height: auto;
     box-shadow: 0 0 30px gray;
-    margin: 10 10 1rem 1rem;
-    display: inline;
+    margin: 10px;
 }
 
 nav {
-    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
     width=100%;
@@ -130,5 +132,4 @@ nav a:link, nav a:visited {
 
 nav a:hover {
     color: var(--nav-hover-background-color);
-    background-color: var(--nav-hover-background-color);
 }
