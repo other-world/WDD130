@@ -7,8 +7,8 @@
 }
 
 header, .grid, footer {
-    max-width: 840px;
     margin: 0 auto;
+    max-width: 840px;
 }
 
 nav {
@@ -36,22 +36,20 @@ h1 {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-auto-rows: minmax(90px, auto);
-    grid-gap: 20px;
+    align-items: center;
 }
 
 aside {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 1/2;
+    grid-row: 1/2;
     text-align: center; 
     position: relative;
-    width: 250px;
+    width: 20rem;
 }
 
 main {
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 main img {
@@ -75,7 +73,7 @@ p {
 
 
 aside img {
-    width: 200px;
+    width: 250px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -84,8 +82,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 30px;
-    left: 140px;
+    top: 50px;
+    left: 130px;
     color: cornsilk;
 }
 
