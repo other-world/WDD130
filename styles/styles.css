@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 
-header .grid footer{
-    max-width: 640px;
+header, .grid, footer {
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -39,12 +39,14 @@ h1 {
     grid-template-columns: 1fr 3fr;
     grid-auto-rows: minmax(90px, auto);
     grid-gap: 20px;
-
 }
 
-aside{
+aside {
     grid-column: 1;
     grid-row: 1;
+    text-align: center; 
+    position: relative;
+    width: 250px;
 }
 
 main {
@@ -71,16 +73,6 @@ p {
     margin: 1rem;
 }
 
-aside {
-    width: 20rem;
-    /* margin: 1rem; */
-    /* border: 1px solid rgba(0, 0, 0, 0.2); */
-    /* padding: 1rem; */
-    /* background-color: #DF9D7C; */
-    /* color: #2E2E3A; */
-    text-align: center; 
-    position: relative;
-}
 
 aside img {
     width: 200px;
