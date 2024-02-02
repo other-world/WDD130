@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A website to demonstrate introductory web design principles for BYU-I, WWD130. Written by Jamie Cummings">
+        <meta name="author" content="Jamie Cummings">
+        
+        <title>Jamie Cummings | WDD 130</title>
+    <link rel="stylesheet" href="Jamie%20Cummings%20WDD%20130_files/styles.css"></head>
+    <body>
+        <header>
+            <nav>
+                <a href="#">Home</a>
+                <a href="http://127.0.0.1:5500/wwr/">Rafting Website</a>
+                <a href="http://127.0.0.1:5500/wwr/site-plan-rafting.html">Rafting Site Plan</a>
+                <a href="https://www.linkedin.com/in/jamie-cummings-827741114/">Linked In</a>
+                <a href="https://www.facebook.com/jamie.cummings">Facebook</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Jamie Cummings | WDD 130</h1>
+            <img src="Jamie%20Cummings%20WDD%20130_files/profile.jpg" alt="Jamie Cummings" width="200">
+            <p>Hello, I'm Jamie. I just finished the basic BYU Pathways 
+courses and I'm starting at BYU-I and I'm seeking a degree in Computer 
+Science and Web Development. I studied CS and Information Technology at 
+BYU Provo, but never graduated. But I know enough about computers to be 
+successful in the job market. It's changing fast and I want a degree to 
+help strength my weaknesses. </p>
+            <p>I love most things involving the outdoors and nature. I 
+keep houseplants indoors and a wild garden outdoors. I also keep a 
+little homestead with chickens and rabbits. I also have two dogs. I love
+ hiking, rock climbing, and especially canyoneering.</p>
+            <p>CSS has been a serious weak spot for me in web 
+development. I'm hoping to becoming much more comfortable with it during
+ this course. Especially when it comes to positioning elements of a web 
+page. </p>
+            <ul class="box">
+                <li><a href="https://www.churchofjesuschrist.org/temples/details/provo-utah-temple?lang=eng" target="_blank">Provo Utah (original)</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/temples/details/portland-oregon-temple?lang=eng" target="_blank">Portland Oregon</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/temples/details/payson-utah-temple?lang=eng" target="_blank">Payson Utah</a></li>
+            </ul>
+        </main>
+        <aside class="box">
+            <h2>Utah</h2>
+            <img src="Jamie%20Cummings%20WDD%20130_files/hogwarts2.jpg" alt="Jamie Cummings" width="200">
+            <p>The State of Utah contains some of the most beautiful 
+desert scenery in the world. The image above is taken in a particularly 
+remote location. It's an arch hidden in a canyon called, Hogwarts. It 
+can only be reached by rapelling down several cliffs, including one that
+ runs down and through this arch. Canyoneering is one of my favorite 
+activites. It requires careful planning, technical outdoors skills, and 
+lots of teamwork.</p>
+        </aside>
+        <footer>
+            <p>© 2024 | Jamie Cummings | Utah, USA</p>
+        </footer>
+ 
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+    
+</body><!-- Last modified 25 January 2024 --></html>

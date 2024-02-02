@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 
-header .grid footer{
-    max-width: 640px;
+header footer{
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -24,32 +24,17 @@ nav a {
     display: block;
     padding: 0.5rem;
     text-decoration: none;
-    font-size: large;
+    font-size: medium;
     font-weight: 700;
 }
 
 h1 {
     color: steelblue;
     padding: .5rem;
-    border-bottom: 1px solid steelblue;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-auto-rows: minmax(90px, auto);
-    grid-gap: 20px;
-
-}
-
-aside{
-    grid-column: 1;
-    grid-row: 1;
 }
 
 main {
-    grid-column: 2;
-    grid-row: 1;
+    
 }
 
 main img {
@@ -59,7 +44,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    margin: 1rem;
+    margin: 0 0 1rem 1rem;
 }
 
 h1 { 
