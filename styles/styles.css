@@ -8,7 +8,11 @@
 
 header, .grid, footer {
     margin: 0 auto;
-    max-width: 840px;
+    max-width: 900px;
+}
+
+body {
+    background: lightgray;
 }
 
 nav {
@@ -50,6 +54,8 @@ aside {
 main {
     grid-column: 2/3;
     margin: 1rem;
+    background-color: white;
+    border: 1px solid steelblue;
 }
 
 main img {
