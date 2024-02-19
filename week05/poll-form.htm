@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="author" content="Jamie Cummings">
+        <link rel="stylesheet" href="poll-form.css">
+    </head>
+    <body>
+        <header>
+            <h1>WDD 130 | Jamie Cummings | HTML Form - User Poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label>Full Name:<input type="text" id="fullname" name="fullname"></label><br>
+                    <label>Email:<input type="email" id="useremail" name="useremail"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label>What is your favorite browser:
+                        <select name="browser" id="browser">
+                            <option value="firefox">Firefox</option>
+                            <option value="chrome">Chrome</option>
+                            <option value="safari">Safari</option>
+                            <option value="opera">Opera</option>
+                            <option value="edge">Edge</option>
+                        </select>
+                    </label><br>
+                    <label>Do you have a household pet?
+                        <input type="checkbox" id="pet" name="pet">
+                    </label><br>
+                    <label>List the places you have lived.
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="Provo Utah, Beverton Oregon, Bellevue Washington "></textarea>
+                    </label>
+                </fieldset>
+                <button type="submit">Submit Poll</button>  
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2024 | HTML Form - User Poll Activity | Jamie Cummings </p>
+        </footer>
+
+    </body>
+</html>

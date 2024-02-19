@@ -38,7 +38,8 @@ header {
     grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
     padding: 10px;
-    /* background-color: lightgray; */
+    height: 150px;
+    /* background-image: linear-gradient(to bottom right, #f55b02e4, #00f7ff); */
     /* border: 1px solid #000; */
 }
 
@@ -70,8 +71,8 @@ p {
 .hero{
     position: relative;
     width: 100%;
-    border: 1px solid #000;
-    background-color: white;
+    /* border: 1px solid #000;
+    background-color: white; */
 }
 
 .hero h1 {
@@ -95,12 +96,24 @@ p {
     object-fit: cover;
 }
 
-.hero p {
+.hero p, ul {
     color: var(--secondary-color);
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+
+}
+
+.hero ul {
+    color: var(--secondary-color);
+    font-size: larger;
+    
+
 }
 
 article {
     position: absolute;
+    height: 175px;
     top: 100px;
     left: 50px;
     width:80%;
@@ -113,7 +126,16 @@ article {
 
 .hero article img {
     float: right;
-    width: 150px;
+    width: 220px;
+    height: auto;
+    padding: 2px;
+    box-shadow: 0 0 30px black;
+    margin: 10px 10px 10px 10px;
+}
+
+.hero article iframe {
+    float: right;
+    width: 250px;
     height: auto;
     padding: 2px;
     box-shadow: 0 0 30px black;
@@ -134,18 +156,18 @@ nav a:hover {
     color: var(--nav-hover-background-color);
 }
 
-div .history {
+.history {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    /* border: 1px solid #000;
-    background-color: white; */
+    border: 1px solid #000;
+    background-color: white;
 }
 
 .history img {
-    margin: 10px;
-    width: 250px;
-    float: right;
+    margin: 30px;
+    width: 300px;
+    /* float: right; */
     box-shadow: 0 0 30px black;
 }
 
@@ -159,6 +181,20 @@ div .history {
     max-width: 150px;
     height: auto;
     margin: 0px;
+}
+
+/* #team_gallery {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+} */
+
+.team_members img{
+    max-width: 150px;
+    height: auto;
+    margin: 0px;
+    box-shadow: 0 0 30px black;
 }
 
 figure {
@@ -195,4 +231,69 @@ footer p {
     width: 30px;
     margin: -10px;
 
+}
+
+/*------------------------- Contact Form ----------------------------*/
+
+form {
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    max-width: 400px;
+
+    /* box-shadow: 0 0 5px black; */
+}
+
+legend {
+    background-color: #000;
+    color: white;
+    font-size: larger;
+    padding: 1px 10px;
+}
+
+label, input, button, textarea {
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
+}
+
+input {
+    /* text-align: right; */
+    /* padding-right: 10rem; */
+    margin: 3px;
+}
+
+input[type="radio"] {
+    width: 22px;
+    height: 22px;
+    
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+textarea {
+    padding: 10px;
+    width: 95%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+  }
+
+button {
+    width: 100px;
 }
