@@ -294,5 +294,7 @@ textarea {
   }
 
 button {
+    margin: 20px;
     width: 100px;
+    box-shadow: 1px 1px 1px #999;
 }
