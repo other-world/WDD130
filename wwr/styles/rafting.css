@@ -39,6 +39,7 @@ header {
     align-items: center;
     padding: 10px;
     height: 150px;
+    margin-bottom: 30px;
     /* background-image: linear-gradient(to bottom right, #f55b02e4, #00f7ff); */
     /* border: 1px solid #000; */
 }
@@ -73,6 +74,7 @@ p {
     width: 100%;
     /* border: 1px solid #000;
     background-color: white; */
+    box-shadow: 0 0 20px #111;
 }
 
 .hero h1 {
@@ -84,7 +86,7 @@ p {
     position: absolute;
     border: 1px solid #000;
 	padding: 1rem;
-	box-shadow: 0 0 30px #111;
+	/* box-shadow: 0 0 10px #111; */
 	opacity: 0.7;
 }
 
@@ -167,14 +169,12 @@ nav a:hover {
 .history img {
     margin: 30px;
     width: 300px;
-    /* float: right; */
-    box-shadow: 0 0 30px black;
+    box-shadow: 2px 2px 30px black;
 }
 
 .adventures {
     display: flex;
-    /* border: 1px solid #000;
-    background-color: white; */
+
 }
 
 .adventures img {
@@ -183,25 +183,12 @@ nav a:hover {
     margin: 0px;
 }
 
-/* #team_gallery {
-    max-width: 800px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-} */
-
-.team_members img{
-    max-width: 150px;
-    height: auto;
-    margin: 0px;
-    box-shadow: 0 0 30px black;
-}
-
 figure {
     border: thin #c0c0c0 solid;
     padding: 5px;
     max-width: 150px;
     margin: auto;
+    box-shadow: 2px 2px 5px black;
   }
 
 figcaption {
@@ -216,8 +203,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr 150px;
     align-items: center;
-    /* border: 1px solid #000;
-    background-color: white; */
+    margin-top: 30px;
+    background-color: #eee; 
 }
 
 footer p {
@@ -232,6 +219,54 @@ footer p {
     margin: -10px;
 
 }
+
+/*--------------------- Trips Page Specifics ------------------------*/
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.trips h2 {
+    /* position: relative; */
+    grid-column: 2;
+    grid-column-end: span 1;
+    margin-bottom: -3px;
+
+}
+
+.trips-left {
+    position: relative;
+    grid-column: 1;
+    grid-column-end: span 2;
+    border-top: 1px solid #000;
+}
+
+.trips-right {
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    border-top: 1px solid #000;
+}
+
+.trip-images img {
+    position: relative;
+    /* width: 190px;
+    height: auto; */
+    width: 190px;
+    margin: 20px;
+    box-shadow: 0 0 30px black;
+    /* margin: 10px 10px 10px 10px; */
+}
+
+/* .trips-two p {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+} */
 
 /*------------------------- Contact Form ----------------------------*/
 
