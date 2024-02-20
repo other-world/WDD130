@@ -252,7 +252,7 @@ fieldset {
     padding: 1rem;
     max-width: 400px;
 
-    /* box-shadow: 0 0 5px black; */
+    box-shadow: 5px 5px 20px #000;
 }
 
 legend {
@@ -276,14 +276,13 @@ input {
 input[type="radio"] {
     width: 22px;
     height: 22px;
-    
+    vertical-align: middle;
 }
 
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
-    vertical-align: bottom;
-}
+    vertical-align: middle;}
 
 textarea {
     padding: 10px;
