@@ -257,7 +257,8 @@ footer p {
 }
 
 .newsletter {
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
     /* border: 1px solid #000; */
 }
 
@@ -272,6 +273,7 @@ footer p {
     border-bottom: 2px solid black;
     background-color: white;
     display: grid;
+    padding-right: 10px;
 }
 
 .newsletter img {
