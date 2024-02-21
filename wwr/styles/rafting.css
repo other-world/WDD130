@@ -3,7 +3,7 @@
 :root {
     --primary-color: #000000;
     --secondary-color: #e5e5e5;
-    --accent1-color: #0af4f4;
+    --accent1-color: #0d1c92;
     --accent2-color: #fc7311;
 
     --heading-font: 'Oswald', serif;
@@ -11,7 +11,7 @@
     
     --nav-background-color: var(--accent2-color);
     --nav-link-color: #0d1c92;
-    --nav-hover-link-color: #292928;
+    --nav-hover-link-color: #0d1c92;
     --nav-hover-background-color: var(--accent2-color);
 }
 
