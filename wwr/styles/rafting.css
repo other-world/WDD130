@@ -158,7 +158,8 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: var(--nav-hover-background-color);
+    color: var(--nav-link-color);
+    border-bottom: 5px solid #fc7311;
 }
 
 .history {
